@@ -6,6 +6,7 @@ This repository contains various Python scripts that I’ve created for differen
 
 | Script Name                        | Description                                                                                                         |
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------|
+|`get_microsoft_exchange_online_ip_ranges.py`| Retrieves Exchange Online IP subnets from the Microsoft Office 365 worldwide endpoints API. |
 | `sigma_rules_to_excel_exporter.py` | Clones the SigmaHQ rules repository from GitHub, parses all Sigma rule YAML files, and exports information to Excel. |
 
 ## How to Use
