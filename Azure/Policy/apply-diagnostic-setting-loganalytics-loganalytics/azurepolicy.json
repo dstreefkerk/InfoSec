@@ -150,10 +150,6 @@
                                                 {
                                                     "category": "Audit",
                                                     "enabled": "[parameters('logsEnabled')]"
-                                                },
-                                                {
-                                                    "category": "AllMetrics",
-                                                    "enabled": "[parameters('logsEnabled')]"
                                                 }
                                             ]
                                         }
