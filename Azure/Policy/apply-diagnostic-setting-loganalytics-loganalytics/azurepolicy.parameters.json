@@ -1,0 +1,51 @@
+{
+    "profileName": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Profile Name for Config",
+            "description": "The profile name Azure Diagnostics"
+        },
+        "defaultValue": "setbypolicy_logAnalytics_audit"
+    },
+    "logAnalytics": {
+        "type": "string",
+        "metadata": {
+            "displayName": "Log Analytics workspace",
+            "description": "The target Log Analytics Workspace for Azure Diagnostics",
+            "strongType": "omsWorkspace",
+            "assignPermissions": true
+        }
+    },
+    "azureRegions": {
+        "type": "Array",
+        "metadata": {
+            "displayName": "Allowed Locations",
+            "description": "The list of locations that can be specified when deploying resources",
+            "strongType": "location"
+        }
+    },
+    "metricsEnabled": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Enable Metrics",
+            "description": "Enable Metrics - True or False"
+        },
+        "allowedValues": [
+            "True",
+            "False"
+        ],
+        "defaultValue": "False"
+    },
+    "logsEnabled": {
+        "type": "String",
+        "metadata": {
+            "displayName": "Enable Logs",
+            "description": "Enable Logs - True or False"
+        },
+        "allowedValues": [
+            "True",
+            "False"
+        ],
+        "defaultValue": "True"
+    }
+}
