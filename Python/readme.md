@@ -8,12 +8,13 @@ This repository contains various Python scripts that I’ve created for differen
 |-----------------------------------|---------------------------------------------------------------------------------------------------------------------|
 |`get_microsoft_exchange_online_ip_ranges.py`| Retrieves Exchange Online IP subnets from the Microsoft Office 365 worldwide endpoints API. |
 | `sigma_rules_to_excel_exporter.py` | Clones the SigmaHQ rules repository from GitHub, parses all Sigma rule YAML files, and exports information to Excel. |
+|`analyse_attack_markdown.py` | Script that analyses the differences between two versions of MITRE ATT&CK framework data and generates a comprehensive markdown report of all changes. |
 
 ## How to Use
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/dstreefkerk/infosec.git
 ```
 
 2. Navigate to the directory:
